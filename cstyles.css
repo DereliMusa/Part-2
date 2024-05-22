@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(202, 158, 201);
+    display: block;
+  }
+
+.container h2 {
+    color: rgb(221, 93, 93);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 25%;
+}
+
+label {
+    margin-bottom: 15px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}

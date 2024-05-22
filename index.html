@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>index</title>
+<link rel="stylesheet" href="styles.css">
+<script src="src.js"></script>
+</head>
+<body>
+    <div class="container" id="container" style="display: block;">
+        <label for="name">Names:</label>
+        <input type="text" id="name" name="name">
+        <button onclick="greetUser()">Submit</button>
+    </div>
+    <div id="welcome"></div>
+    <div id="wrapper">
+        Seni seviyorum ♡
+        <div>
+            <h1></h1>
+        </div>
+        <h2>Menu</h2>
+        <div class="active">
+            <div class="contact">
+                <button type="button" onclick="loadPage('contact')">Contact</button>
+            </div>
+            <div class="main">
+                <button type="button" onclick="loadPage('main')">Main Page</button>
+            </div>
+            <div class="aboutus">
+                <button type="button" onclick="loadPage('aboutus')">About Us</button>
+            </div>
+        </div>
+    </div>
+    <div class="content">Click on any button</div>
+    <div>
+        <a href="#wrapper" class="top">↑</a>
+    </div>
+</body>
+</html>
